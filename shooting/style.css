@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
   body {
-    background-color: blue;
+   
     -webkit-animation: bugfix infinite 1s; }
     @-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} 
   }
@@ -28,8 +28,8 @@
   .can {
     display: inline-block;
     position: relative;
-    height: 195px;
-    width: 150px;
+    height: 97.5px;
+    width: 75px;
     
     background: red;
   }
@@ -50,25 +50,25 @@
     top: -5px;
     content: "";
     width: 100%;
-    height: 10px;
+    height: 5px;
     position: absolute;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: #808080;
     z-index: 10;
   }
   .lower {
     width: 100%;
-    height: 100px;
+    height: 50px;
     position: absolute;
-    top: 95px;
+    top: 47.5px;
     background-color: #fffee4;
     z-index: 2;
   }
   .lower:before {
-    width: 100%;
-    height: 10px;
+    width: 50%;
+    height: 5px;
     position: absolute;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: #F00;
     top: -5px;
     z-index: 0;
@@ -76,12 +76,12 @@
   }
   .lower:after {
     content: "";
-    width: 100%;
-    height: 10px;
+    width: 50%;
+    height: 5px;
     position: absolute;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: #FFFEE4;
-    top: 95px;
+    top: 47.5px;
     z-index: -2;
   }
   .score{
@@ -180,4 +180,13 @@ border-radius:8px 8px 0px 0px;
 font-family: 'Luckiest Guy', serif;
 text-align: center;
 
+}
+html{
+    background-image:  url("bottle.jpg");
+    background-repeat: no-repeat;  
+    background-size: 80%; 
+}
+.tour{
+    width:800px;
+    height: 00px;
 }
