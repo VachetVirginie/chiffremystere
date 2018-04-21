@@ -1,3 +1,25 @@
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+
+.box,
+.bg-info {
+    padding: 10px;
+    color: black
+}
+
+.jeu {
+    color: white;
+}
+
+h1 {
+    color: black;
+    border-radius: 8px 8px 0px 0px;
+    font-family: 'Luckiest Guy', serif;
+    text-align: center;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -302,7 +324,6 @@ html {
 .toure {
     display: flex;
     flex-direction: column;
-    margin-bottom: 24%;
     margin-left: 25%;
     margin-top: 5%
 }
